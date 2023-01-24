@@ -1,0 +1,15 @@
+# should use `cargo install just` to run `just` command
+# `cargo install` can install global package
+# after `cargo install cargo-edit` use `cargo add [dep]` install local package
+# run `just test`
+test:
+  cargo test
+# clean target
+clean:
+  cargo clean
+# dev: interpreter
+dev:
+  cargo run --package hello-world --bin hello-world
+# start: compile
+start:
+  cargo run
