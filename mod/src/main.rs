@@ -3,8 +3,8 @@ pub mod object {
 }
 
 fn main() {
-    let mut traffic = crate::object::light::light::TrafficLight::new();
-    let mut house = crate::object::light::light::HouseLight::new();
+    let mut traffic = crate::object::light::發光體::TrafficLight::new();
+    let mut house = crate::object::light::發光體::HouseLight::new();
     println!("{:?}", traffic);
     println!("{:?}", house);
     traffic.set_state("green".to_string());
