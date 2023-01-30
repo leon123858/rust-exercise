@@ -1,0 +1,6 @@
+# 工作空間, 大專案用的, 可以在下面綁一堆 lib / 一堆執行包
+[workspace]
+# 說明子 lib 在哪
+members = ["crates/*"]
+# ex: 可以用 `cargo new --lib crates/my-lib` 新增子 lib
+# ex: 可以用 `cargo new crates/cli` 新增執行包
